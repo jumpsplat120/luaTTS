@@ -1,0 +1,300 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Conari/1.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "lib/net472/Conari.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Conari.dll": {}
+        }
+      },
+      "DllExport/1.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net20/_._": {}
+        },
+        "runtime": {
+          "lib/net20/_._": {}
+        }
+      },
+      "ILMerge/3.0.29": {
+        "type": "package",
+        "build": {
+          "build/ILMerge.props": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "Conari/1.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "lib/net472/Conari.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Conari.dll": {}
+        }
+      },
+      "DllExport/1.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net20/_._": {}
+        },
+        "runtime": {
+          "lib/net20/_._": {}
+        }
+      },
+      "ILMerge/3.0.29": {
+        "type": "package",
+        "build": {
+          "build/ILMerge.props": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "Conari/1.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "lib/net472/Conari.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Conari.dll": {}
+        }
+      },
+      "DllExport/1.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net20/_._": {}
+        },
+        "runtime": {
+          "lib/net20/_._": {}
+        }
+      },
+      "ILMerge/3.0.29": {
+        "type": "package",
+        "build": {
+          "build/ILMerge.props": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "Conari/1.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "lib/net472/Conari.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Conari.dll": {}
+        }
+      },
+      "DllExport/1.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net20/_._": {}
+        },
+        "runtime": {
+          "lib/net20/_._": {}
+        }
+      },
+      "ILMerge/3.0.29": {
+        "type": "package",
+        "build": {
+          "build/ILMerge.props": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Conari/1.4.0": {
+      "sha512": "+KlS8vFtG6th00Wv5ZoYKsRIG7CA9l2fMCkjC50JI5434H8Eeq8RRnEAnyQoBg7wRjDnEOqjLvM7qVh4rcFIIg==",
+      "type": "package",
+      "path": "conari/1.4.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        ".version",
+        "3rd-party.txt",
+        "Conari_v1.png",
+        "LICENSE",
+        "Readme.md",
+        "changelog.txt",
+        "conari.1.4.0.nupkg.sha512",
+        "conari.nuspec",
+        "lib/net40/Conari.dll",
+        "lib/net40/Conari.xml",
+        "lib/net472/Conari.dll",
+        "lib/net472/Conari.xml",
+        "lib/netcoreapp2.1/Conari.dll",
+        "lib/netcoreapp2.1/Conari.xml",
+        "lib/netstandard2.0/Conari.dll",
+        "lib/netstandard2.0/Conari.xml",
+        "lib/netstandard2.1/Conari.dll",
+        "lib/netstandard2.1/Conari.xml",
+        "release-info.txt",
+        "tools/gnt.bat",
+        "tools/hMSBuild.bat"
+      ]
+    },
+    "DllExport/1.7.4": {
+      "sha512": "Uw00IwE/UoJV1faJCasNXpnR3DVa/0dbKjLNS1zNinu4FehQP3y88akvoky1pAjcU6b06cu1BkG9E1IFiV+6xA==",
+      "type": "package",
+      "path": "dllexport/1.7.4",
+      "hasTools": true,
+      "files": [
+        ".gitattributes",
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "3rd-party.txt",
+        "DllExport.bat",
+        "License.txt",
+        "Readme.md",
+        "build_info.txt",
+        "changelog.txt",
+        "dllexport.1.7.4.nupkg.sha512",
+        "dllexport.nuspec",
+        "hMSBuild.bat",
+        "lib/net20/_._",
+        "lib/netstandard1.1/_._",
+        "tools/Conari.dll",
+        "tools/Conari.xml",
+        "tools/Microsoft.Build.Framework.dll",
+        "tools/Microsoft.Build.Utilities.v4.0.dll",
+        "tools/Microsoft.Build.dll",
+        "tools/Mono.Cecil.dll",
+        "tools/Mono.Cecil.pdb",
+        "tools/MvsSln.dll",
+        "tools/MvsSln.pdb",
+        "tools/MvsSln.xml",
+        "tools/NSBin.dll",
+        "tools/NSBin.pdb",
+        "tools/PeViewer.exe",
+        "tools/PeViewer.pdb",
+        "tools/RGiesecke.DllExport.MSBuild.dll",
+        "tools/RGiesecke.DllExport.MSBuild.pdb",
+        "tools/RGiesecke.DllExport.dll",
+        "tools/RGiesecke.DllExport.pdb",
+        "tools/coreclr/.version.txt",
+        "tools/coreclr/LICENSE.TXT",
+        "tools/coreclr/PATENTS.TXT",
+        "tools/coreclr/README.md",
+        "tools/coreclr/changelog.txt",
+        "tools/coreclr/clrgc.dll",
+        "tools/coreclr/coreclr.dll",
+        "tools/coreclr/ilasm.exe",
+        "tools/coreclr/ildasm.exe",
+        "tools/coreclr/ildasmrc.dll",
+        "tools/coreclr/mscordaccore.dll",
+        "tools/coreclr/mscordbi.dll",
+        "tools/gnt.bat",
+        "tools/hMSBuild.bat",
+        "tools/init.ps1",
+        "tools/net.r_eg.DllExport.Wizard.dll",
+        "tools/net.r_eg.DllExport.Wizard.pdb",
+        "tools/net.r_eg.DllExport.Wizard.targets",
+        "tools/net.r_eg.DllExport.targets",
+        "tools/raw/lib/net20/DllExport.dll",
+        "tools/raw/lib/net20/DllExport.xml",
+        "tools/raw/lib/netstd/DllExport.dll",
+        "tools/raw/lib/netstd/DllExport.xml"
+      ]
+    },
+    "ILMerge/3.0.29": {
+      "sha512": "+LXIFY4L84Ve3cVgmd8tOEwFCppJynP0gY2cTmyj/8XjFaQPqaiN6jdYOrIJwtzYw3ayf69IY5vor6XXRxoigA==",
+      "type": "package",
+      "path": "ilmerge/3.0.29",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/ILMerge.props",
+        "docs/ilmerge-manual.md",
+        "ilmerge.3.0.29.nupkg.sha512",
+        "ilmerge.nuspec",
+        "tools/net452/ILMerge.exe",
+        "tools/net452/System.Compiler.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "Conari >= 1.4.0",
+      "DllExport >= 1.7.4",
+      "ilmerge >= 3.0.29"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Jumpsplat120\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Jumpsplat120\\Desktop\\cerevoice_sdk_6.0.0_windows_AMD64_63779cf8_beta\\examples\\csharptts\\TTS\\TTS.csproj",
+      "projectName": "TTS",
+      "projectPath": "C:\\Users\\Jumpsplat120\\Desktop\\cerevoice_sdk_6.0.0_windows_AMD64_63779cf8_beta\\examples\\csharptts\\TTS\\TTS.csproj",
+      "packagesPath": "C:\\Users\\Jumpsplat120\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jumpsplat120\\Desktop\\cerevoice_sdk_6.0.0_windows_AMD64_63779cf8_beta\\examples\\csharptts\\TTS\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Jumpsplat120\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "Conari": {
+            "target": "Package",
+            "version": "[1.4.0, )"
+          },
+          "DllExport": {
+            "target": "Package",
+            "version": "[1.7.4, )"
+          },
+          "ilmerge": {
+            "target": "Package",
+            "version": "[3.0.29, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

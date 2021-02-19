@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Jumpsplat120\\Desktop\\cerevoice_sdk_6.0.0_windows_AMD64_63779cf8_beta\\examples\\csharptts\\TTS\\TTS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jumpsplat120\\Desktop\\cerevoice_sdk_6.0.0_windows_AMD64_63779cf8_beta\\examples\\csharptts\\TTS\\TTS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jumpsplat120\\Desktop\\cerevoice_sdk_6.0.0_windows_AMD64_63779cf8_beta\\examples\\csharptts\\TTS\\TTS.csproj",
+        "projectName": "TTS",
+        "projectPath": "C:\\Users\\Jumpsplat120\\Desktop\\cerevoice_sdk_6.0.0_windows_AMD64_63779cf8_beta\\examples\\csharptts\\TTS\\TTS.csproj",
+        "packagesPath": "C:\\Users\\Jumpsplat120\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jumpsplat120\\Desktop\\cerevoice_sdk_6.0.0_windows_AMD64_63779cf8_beta\\examples\\csharptts\\TTS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Jumpsplat120\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Conari": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "DllExport": {
+              "target": "Package",
+              "version": "[1.7.4, )"
+            },
+            "ilmerge": {
+              "target": "Package",
+              "version": "[3.0.29, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

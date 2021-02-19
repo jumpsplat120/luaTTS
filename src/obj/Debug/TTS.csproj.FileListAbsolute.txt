@@ -1,0 +1,8 @@
+C:\Users\Jumpsplat120\Desktop\cerevoice_sdk_6.0.0_windows_AMD64_63779cf8_beta\examples\csharptts\TTS\bin\Debug\TTS.dll
+C:\Users\Jumpsplat120\Desktop\cerevoice_sdk_6.0.0_windows_AMD64_63779cf8_beta\examples\csharptts\TTS\bin\Debug\TTS.pdb
+C:\Users\Jumpsplat120\Desktop\cerevoice_sdk_6.0.0_windows_AMD64_63779cf8_beta\examples\csharptts\TTS\obj\Debug\TTS.csprojAssemblyReference.cache
+C:\Users\Jumpsplat120\Desktop\cerevoice_sdk_6.0.0_windows_AMD64_63779cf8_beta\examples\csharptts\TTS\obj\Debug\TTS.csproj.CoreCompileInputs.cache
+C:\Users\Jumpsplat120\Desktop\cerevoice_sdk_6.0.0_windows_AMD64_63779cf8_beta\examples\csharptts\TTS\obj\Debug\TTS.dll
+C:\Users\Jumpsplat120\Desktop\cerevoice_sdk_6.0.0_windows_AMD64_63779cf8_beta\examples\csharptts\TTS\obj\Debug\TTS.pdb
+C:\Users\Jumpsplat120\Desktop\cerevoice_sdk_6.0.0_windows_AMD64_63779cf8_beta\examples\csharptts\TTS\bin\Debug\Conari.dll
+C:\Users\Jumpsplat120\Desktop\cerevoice_sdk_6.0.0_windows_AMD64_63779cf8_beta\examples\csharptts\TTS\obj\Debug\TTS.csproj.CopyComplete
