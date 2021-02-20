@@ -194,10 +194,6 @@ function TTS:load()
 	if self.data.fused then love.filesystem.mount(love.filesystem.getSourceBaseDirectory(), "") end
 end
 
-function TTS:update(dt)
-	self.func(dt, self, unpack(self.data.func))
-end
-
 function TTS:quit()
 	for i, file in ipairs(love.filesystem.getDirectoryItems((self.data.fused and "" or sub_path) .. "audio/")) do os.remove(self.data.folder .. "audio/" .. file) end
 end
@@ -217,39 +213,26 @@ function TTS:set_voices(val)
 end
 		
 function TTS:set_sample_rate(val)
-	assert(type(val) == "number", "Invalid sample rate! '" .. tostring(val) .. "' is not a number.")
-	local accepted_val = false
-	for _, i in ipairs({ 8, 11, 12, 16, 22, 24, 32, 44.1, 48 }) do
-		if i == val then 
-			accepted_val = true
-			break
-		end
-	end
-	assert(accepted_val, "Invalid value! '" .. tostring(val) .. "' is not a valid frequency rate.")
+	typeis(val, {"number"}, "sample rate")
+	assert(contains({ 8, 11, 12, 16, 22, 24, 32, 44.1, 48 }, val), "Invalid value! '" .. tostring(val) .. "' is not a valid sample rate.")
 	self.data.rate = val * 1000
 end
 
 function TTS:set_bit_depth(val)
-	assert(type(val) == "number", "Invalid bit depth! '" .. tostring(val) .. "' is not a number.")
-	if val == 8 or val == 16 then
-		self.data.bit_depth = val
-	else
-		error("Invalid value! '" .. tostring(val) .. "' is not a valid bit depth.")
-	end
+	typeis(val, {"number"}, "bit depth")
+	assert(contains({8, 16}, val), "Invalid value! '" .. tostring(val) .. "' is not a valid bit depth.")
+	self.data.bit_depth = val
 end
 
 function TTS:set_channel_mode(val)
-	assert(type(val) == "string", "Invalid channel mode! '" .. tostring(val) .. "' is not a valid string!")
+	typeis(val, {"string"}, "channel mode")
 	val = val:lower()
-	if val == "mono" or val == "stereo" then
-		self.data.channel_mode = val == "mono" and 1 or 2
-	else
-		error("Invalid value! '" .. tostring(val) .. "' is not a valid channel mode.")
-	end
+	assert(contains({"mono", "stereo"}, val), "Invalid value! '" .. tostring(val) .. "' is not a valid channel mode.")
+	self.data.channel_mode = val == "mono" and 1 or 2
 end
 
 function TTS:set_voice(val)
-	assert(type(val) == "string", "Invalid voice! '" .. tostring(val) .. "' is not a valid string!")
+	typeis(val, {"string"}, "voice")
 	
 	local set_voice
 	
