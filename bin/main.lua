@@ -237,7 +237,7 @@ function TTS:set_voice(val)
 	local set_voice
 	
 	for _, voice in ipairs(self.voices) do
-		if voice:match(val) then
+		if voice == val or voice:match(val) then
 			set_voice = voice
 			break
 		end
