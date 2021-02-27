@@ -3,7 +3,7 @@ local reg, ffi, Object, sub_path
 sub_path = string.match(..., ".*/") or ""
 
 ffi    = require("ffi")
-Object = require(sub_path .. "classic")
+Object = require(sub_path:gsub("luareg/", "") .. "classic")
 
 reg = Object:extend()
 
